@@ -1,0 +1,117 @@
+/* style tags */
+
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+
+div{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+div p{
+    margin: 10px auto;
+    width: 980px;
+    text-align: justify;
+}
+
+h1{
+    margin: 0px;
+    padding: 0px;
+    line-height: 30px;
+}
+
+span{
+    font-weight: bold;
+}
+
+/* style span */
+
+.span-azul{
+    color: #1d80c1;
+}
+
+.span-amarelo{
+    color: yellow;
+}
+
+/* seção do cabeçalho */
+
+.secao-cabecalho, .secao-cabecalho p{
+    background-color: #b0ddfc;
+    text-align: center;
+}
+
+.secao-cabecalho a{
+    padding: 15px;
+}
+
+/* seção sobre */
+
+.secao-sobre h2{
+    font-weight: normal;
+    color: #1d80c1;
+    font-size: 22px;
+    margin: 10px; 
+}
+
+/* seção serviços */
+
+.secao-servicos p{
+    width: 500px;
+    text-align: center;
+     
+}
+
+.secao-servicos ul{
+    text-align: left;
+    margin: 30px auto;
+    width: 200px;
+}
+
+/* seção corretores */
+
+.secao-corretores h2{
+    color: #1d80c1;
+
+}
+
+/* seção contato */
+
+.secao-contato iframe{
+    width: 800px;
+    height: 400px;
+}
+
+.secao-contato p{
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    width: 900px;
+}
+
+.secao-contato ul li a{
+    background-color: white;
+    width: 15%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 2px;
+    
+}
+
+/* divs com fundos azuis */
+
+.fundo-azul{
+    background-color: #1d80c1;
+    color: white;
+    line-height: 30px;
+}
+
+/* imagens pequenas do mesmo tamanho */
+
+.img-menor{
+    width: 450px;
+}

@@ -1,0 +1,224 @@
+/* configurações globais */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.content {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.texto-azul {
+  color: #2f86d6;
+  font-weight: bold;
+}
+
+.fundo-cinza{
+  background-color: #f1f3f7;
+}
+
+.fonte-medium-h2{
+  font-size: 24px;
+}
+
+/* seção topo */
+
+.topo {
+  padding: 30px;
+}
+
+.topo-conteudo {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icone-logo-topo {
+  width: 75px;
+}
+
+.topo-div-img-txt {
+  padding: 0 20px;
+}
+
+.topo-links a {
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+/* seção do banner */
+
+.banner {
+  background-color: #2f86d6;
+}
+
+.banner-content {
+  align-items: center;
+}
+
+.banner-textos {
+  width: 50%;
+  color: #fff;
+}
+
+.banner-textos h2 {
+  padding: 15px 0;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+/* seção primeiro anúncio */
+
+.primeiro-anuncio {
+  background-color: #233032;
+  color: white;
+}
+
+.primeiro-anuncio-content {
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+  font-size: 14px;
+}
+
+.primeiro-anuncio-link {
+  position: relative;
+  background-color: #2f86d6;
+  padding: 15px 15px 15px 35px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 5%;
+}
+
+.primeiro-anuncio-link img {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+}
+
+/* seção informações */
+
+.informacoes{
+  text-align: center;
+  padding: 70px;
+}
+
+.informacoes-content{
+  margin-top: 50px;
+}
+
+.informacoes-content h3{
+  margin: 15px;
+}
+
+.informacoes-content img{
+  width: 33%;
+}
+
+/* seção tabela de planos */
+
+.planos{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.planos-table{
+  margin: 60px 0;
+  box-shadow: 0 0 30px 10px rgba(47, 134, 214, 1);
+
+}
+
+.planos-table th{
+  padding: 20px;
+  border-right: solid 3px #f1f3f7;
+}
+
+.planos-img-table{
+  width: 150px;
+  margin: 20px 0;
+}
+
+.planos-texto-cinza{
+  color: #a89f9f;
+  font-weight: normal;
+  width: 70%;
+  margin: 0px auto;
+}
+
+.planos-body td{
+  border-right: solid 3px #f1f3f7;
+  height: 70px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.planos-div-cinza{
+  background-color: #f6f6f6;
+}
+
+/* Seção segundo anúncio */
+
+.segundo-anuncio {
+  background-color: #2f86d6;
+  color: white;
+}
+
+.segundo-anuncio-content {
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0px;
+  font-size: 14px;
+}
+
+.segundo-anuncio-link {
+  position: relative;
+  background-color: #233032;
+  padding: 15px 15px 15px 35px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 5%;
+}
+
+.segundo-anuncio-link img {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+}
+
+/* seção rodape */
+
+.rodape-home{
+  margin: 50px 0;
+}
+
+.rodape-home-center{
+  text-align: center;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.rodape-home-content{
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape-cinza{
+  background-color: #f6f6f6;
+  padding: 15px;
+}

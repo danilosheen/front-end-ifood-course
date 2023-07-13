@@ -1,0 +1,45 @@
+.banner-quarto{
+    height: 30vh;
+    background-image: url(../assets/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* seção quartos */
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto-quarto{
+    height: 200px;
+    width: 100%;
+    border-top:1px solid black;
+}
+
+.container-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container-img img{
+    height: 150px;
+}
+
+.container-inf{
+    height: 250px;
+}
+
+.container-inf ul{
+    max-width: 750px;
+    display: flex;
+    height: 30%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}

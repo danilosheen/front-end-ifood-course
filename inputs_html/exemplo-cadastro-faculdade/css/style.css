@@ -71,3 +71,9 @@ button:hover {
   align-items: center;
   justify-content: flex-end;
 }
+
+footer{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}

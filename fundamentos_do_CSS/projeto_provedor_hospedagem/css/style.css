@@ -109,6 +109,7 @@
 
 .primeiro-anuncio-link {
   position: relative;
+  display: flex;
   background-color: #2f86d6;
   padding: 15px 15px 15px 35px;
   text-decoration: none;
@@ -144,6 +145,11 @@
 }
 
 /* seção tabela de planos */
+
+.container-table-planos{
+  width: 100%;
+  overflow-x: auto;
+}
 
 .planos{
   text-align: center;
@@ -200,6 +206,7 @@
 }
 
 .segundo-anuncio-link {
+  display: flex;
   position: relative;
   background-color: #233032;
   padding: 15px 15px 15px 35px;

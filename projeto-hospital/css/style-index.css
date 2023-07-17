@@ -65,6 +65,7 @@
 .texto-banner{
     display: flex;
     align-items: center;
+    line-height: 50px;
     padding-left: 30px;
     height: 100%;
     color: #fff;
@@ -127,13 +128,13 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
-    
+
 }
 
 .card{
     display: flex;
     width: 400px;
-    
+
 }
 
 .div-cards a{
@@ -145,7 +146,7 @@
 }
 
 .div-cards a:hover{
-    box-shadow: 0 0 20blopx #bdc1c2;
+    box-shadow: 0 0 20px #bdc1c2;
 }
 
 .div-p{
@@ -223,6 +224,10 @@
 
     .links-nav{      
         width: 40%;
+    }
+
+    .card{
+        width: 90%;
     }
     
     .banner{

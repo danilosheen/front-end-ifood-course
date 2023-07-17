@@ -1,0 +1,233 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* estilos globais */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-upper{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* nav topo */
+
+.topo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    background-color: #00cad1;
+}
+
+.link-logo{
+    width: 150px;
+}
+
+.links-nav{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.links-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.links-nav a:hover{
+    text-decoration: underline;
+}
+
+/* seção banner */
+
+.banner{
+    background-image: url("../assets/recepcao.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    
+}
+
+.texto-banner{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    height: 100%;
+    color: #fff;
+}
+
+/* seção sobre */
+
+.sobre-content{
+    max-width: 700px;
+}
+
+.sobre-div-1{
+    text-align: center;
+}
+
+.sobre-div-1 h2{
+    margin: 30px 0 10px 0;
+}
+
+.sobre-div-1 p{
+    line-height: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.sobre-div-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-div-2 div h2{
+    font-size: 18px;
+}
+
+.sobre-table{
+    margin: 20px 0 0 20px;
+    font-size: 18px;
+}
+
+/* seção especialidade */
+
+.especialidade-div-1{
+    max-width: 700px;
+    text-align: center;
+}
+
+.especialidade-div-1 h3{
+    margin: 40px 0 10px 0;
+}
+
+.especialidade-div-1 p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.div-cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.card{
+    display: flex;
+    width: 400px;
+    
+}
+
+.div-cards a{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    text-decoration: none;
+    box-shadow: 0 0 10px #bdc1c2;
+}
+
+.div-cards a:hover{
+    box-shadow: 0 0 20blopx #bdc1c2;
+}
+
+.div-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: black;
+}
+
+.div-cards a img{
+    width: 100%;
+}
+
+.button-horarios{
+    margin-top: 30px;
+}
+
+.button-horarios a{
+    color: white;
+    background-color: #02c8d1;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* seção contato */
+
+.contato-content{
+    text-align: center;
+    max-width: 700px;
+}
+
+.contato-content h3{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.contato-content p{
+    margin: 20px 0;
+}
+
+.iframe{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+
+/* rodape */
+
+.rodape-fundo{
+    background-color: #0c6e71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape-content{
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.rodape-content img{
+    margin-top: 20px;
+    width: 150px;
+}
+
+/* responsividade */
+
+@media screen and (max-width: 450px){
+
+    .links-nav{      
+        width: 40%;
+    }
+    
+    .banner{
+        width: 100vw;
+        height: 60vh;
+        background-position: center;
+    }
+}

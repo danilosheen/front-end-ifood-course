@@ -6,6 +6,23 @@
   font-family: sans-serif;
 }
 
+/* seta */
+
+.seta {
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+}
+
+.seta img {
+  width: 60px;
+}
+
+.image-shadow {
+  -webkit-filter: drop-shadow(0px 0px 10px rgba(0 0 0 / 90%));
+  filter: drop-shadow(1px 1px 2px rgba(0 0 0 / 90%));
+}
+
 /* estilos globais */
 
 .container {
@@ -161,6 +178,7 @@
 
 .button-horarios {
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .button-horarios a {
@@ -180,7 +198,7 @@
 }
 
 .contato-content h3 {
-  margin-top: 30px;
+  margin-top: 20px;
   font-size: 20px;
 }
 
@@ -230,5 +248,22 @@
     width: 100vw;
     height: 60vh;
     background-position: center;
+  }
+
+  .seta img {
+    width: 50px;
+  }
+
+  .box-img {
+    display: none;
+  }
+
+  .links-especialidades {
+    margin-left: 30px;
+    text-align: center;
+  }
+
+  .container-tabelas p {
+    margin: 0 10px;
   }
 }

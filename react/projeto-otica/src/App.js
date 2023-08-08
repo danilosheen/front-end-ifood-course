@@ -1,15 +1,16 @@
-import './App.css';
-import Topo from './componentes/Topo';
-import Conteudo from './componentes/Conteudo';
-import Rodape from './componentes/Rodape';
+import Topo from "./componentes/Topo";
+import Conteudo from "./componentes/Conteudo";
+import Rodape from "./componentes/Rodape";
+
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <div>
-        <Topo></Topo>
-        <Conteudo></Conteudo>
-        <Rodape></Rodape>
+        <Topo />
+        <Conteudo />
+        <Rodape />
       </div>
     </div>
   );

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="topo">
+        <img class="icon-topo" src="./assets/logo.png" alt="logo-png">
+    </div>
+    <div class="container">
+        <div class="container-content">
+            <div class="campo-titulo">
+                <h1>Conversor de ferragem</h1>
+            </div>
+            <div class="seletor-funcao">
+                <select name="opcao" id="select-opcao">
+                    <option value="kg-to-barra">Quilos para Barras</option>
+                    <option value="barra-to-kg">Barras para Quilos</option>
+                    <option value="mt-to-kg">Metros para Quilos</option>
+                    <option value="kg-to-mt">Quilos para Metros</option>
+                  </select>
+
+            </div>
+            <div class="input-converter">
+                <input type="text" placeholder="Informe um valor">
+            </div>
+            <div class="button-converter">
+                <form action="">
+                    <button type="submit">Converter</button>
+                  </form>
+            </div>
+            <div class="result">
+                <input type="text" placeholder="Resultado">
+
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

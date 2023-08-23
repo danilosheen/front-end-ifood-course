@@ -13,7 +13,7 @@ let colecao_signos = [
   { Nome: "Capricórnio", DataInicio: "12-22", DataFim: "01-19" },
 ];
 
-let verifica_data_range = (data, data_inicio, data_fim, tipo_comparacao) => {
+const verifica_data_range = (data, data_inicio, data_fim, tipo_comparacao) => {
   if (tipo_comparacao == "and") {
     return data >= data_inicio && data <= data_fim;
   } else if (tipo_comparacao == "or") {

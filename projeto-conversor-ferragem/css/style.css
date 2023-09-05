@@ -2,16 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .topo{
     width: 100%;
     height: 100px;
-    background-color: #F64F44;
+    background-color: #8b150c;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    box-shadow: 0 3px 10px 0 #c1c1c1;
+    box-shadow: 0 3px 10px 0 #000000;
+    position: absolute;
+    z-index: 1;
 }
 
 .icon-topo{
@@ -19,3 +22,141 @@
     margin-left: 40px;
 }
 
+.container{
+    background-color: #222222;
+}
+
+.container-content{
+    width: 80%;
+    height: calc(100vh - 50px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3b3b3b;
+    box-shadow: 1px 0 1px 0 #000000;
+
+}
+
+.campo-titulo{
+    margin-top: 150px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.seletor-funcao{
+    margin: 20px;
+}
+
+.seletor-funcao select, 
+.espessura-ferro select{
+    font-size: 20px;
+    background-color: #dddddd;
+    color: #000000;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+
+}
+
+.input-converter, .result{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.input-converter input, .result input{
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #dddddd;
+    text-align: center;
+
+}
+
+.result input{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button-converter button{
+    border: none;
+    background-color: #8b150c;
+    color: white;
+    font-size: 20px;
+    padding: 5px 50px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#btn-converter:hover{
+    background-color: #c01e13;
+}
+
+.result p{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #000000;
+    color: white;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .topo{
+        height: 70px;
+    }
+
+    .icon-topo{
+        width: 45px;
+    }
+
+    .campo-titulo{
+        margin-top: 100px;
+    }
+
+    .campo-titulo h1{
+        font-size: 24px;
+    }
+
+    .container-content{
+        height: calc(100vh - 50px);
+    }
+
+    .seletor-funcao select, 
+    .espessura-ferro select{
+        font-size: 18px;
+
+    }
+
+    .input-converter input, .result input{
+        font-size: 18px;
+        width: 200px;
+    }
+
+    .result{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .rodape p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    
+
+}
